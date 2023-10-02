@@ -20,21 +20,24 @@ RStudio Server requires Debian version 10 (or higher) or Ubuntu version 20 (or h
 [Ubuntu Packages for R](http://cran.rstudio.com/bin/linux/ubuntu/)
 
 You can then install R using the following command:
-
+```
 sudo apt-get install r-base
-
+```
 ## Step 3:  
 Install RStudio Server
 
 You may choose to [verify the build's GPG signature](https://www.rstudio.com/code-signing/) prior to installing it.
 
 To download and install RStudio Server open a terminal window and execute the following commands.
-
+```
 sudo apt-get install gdebi-core
-
+```
+```
 wget https://download2.rstudio.org/server/focal/amd64/rstudio-server-2023.09.0-463-amd64.deb
-
+```
+```
 sudo gdebi rstudio-server-2023.09.0-463-amd64.deb
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTQxNTMyOF19
+eyJoaXN0b3J5IjpbMTUyNjA4ODA5MiwxMTY5NDE1MzI4XX0=
 -->
