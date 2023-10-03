@@ -43,7 +43,10 @@ curl -L https://tljh.jupyter.org/bootstrap.py | sudo -E python3 - --admin <admin
     
 4.  按下开始安装过程。这将需要5-10分钟， 并会说安装过程何时完成。`Enter``Done!`
     
-5.  复制服务器的公共 **IP**，然后尝试从 您的浏览器。如果一切顺利，这应该会给你一个JupyterHub登录页面。`http://<public-ip>`
+5.  复制服务器的公共 **IP**，然后尝试从 您的浏览器。如果一切顺利，这应该会给你一个JupyterHub登录页面。
+```
+http://<public-ip>
+```
     
 6.  使用您在步骤 3 中使用的**管理员用户名**登录。您可以选择任何 您想要的密码。使用 强密码并在某处记下它，因为这将是密码 从现在开始的管理员用户帐户。
     
@@ -54,7 +57,7 @@ curl -L https://tljh.jupyter.org/bootstrap.py | sudo -E python3 - --admin <admin
 |--|--|
 | jupyter | 608596tljh  |
 |tljh| 608596tljh|
-|jupyterhub | 
+|jupyterhub |   |
 |大数据201顾楠瑜 | 25dbc128|
 
 ## 第 2 步：添加更多用户
@@ -139,7 +142,7 @@ Most administration & configuration of the JupyterHub can be done from the web U
             
         -   开发环境：JupyterHub + JupyterLab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDQxMzQ4MSwxNDY1MDIxMTg2LDQ2Mj
-Q1NDI1MCw1NjU2MjcxNjMsMTE4ODY4Nzg4MSw1MzQ4MTUyMDJd
-fQ==
+eyJoaXN0b3J5IjpbOTQ5OTQ3MTAxLC0zMzQ0MTM0ODEsMTQ2NT
+AyMTE4Niw0NjI0NTQyNTAsNTY1NjI3MTYzLDExODg2ODc4ODEs
+NTM0ODE1MjAyXX0=
 -->
