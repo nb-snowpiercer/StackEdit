@@ -51,7 +51,8 @@ http://<public-ip>
 ```     
 6.  使用您在步骤 3 中使用的**管理员用户名**登录。您可以选择任何 您想要的密码。使用 强密码并在某处记下它，因为这将是密码 从现在开始的管理员用户帐户。       
 7.  恭喜，您有一个正在运行的 JupyterHub！  
-![](blob:https://stackedit.cn/3b536c0b-0b91-4d0f-bfa6-c903093ee1b7)![输入图片说明](/imgs/2023-10-03/MWnYMdhZiuIEpDs0.png)  
+![](blob:https://stackedit.cn/3b536c0b-0b91-4d0f-bfa6-c903093ee1b7)
+  
       
 | 用户名 |密码  |  
 |--|--|  
@@ -74,8 +75,7 @@ Most administration & configuration of the JupyterHub can be done from the web U
   恭喜，您现在有一个多用户 JupyterHub，您可以添加任意 用户到！  
   ![输入图片说明](Python/imgs/2023-10-03/fig1.png)
 ## 第 3 步：为所有用户安装 conda / pip 包  
-  ![输入图片说明](Python/imgs/2023-10-03/CohfPbi8k97EnDfd.png)
-
+  
 **用户环境**是所有用户共享的 conda 环境 在JupyterHub中。在此环境中安装的库会立即生效 可供所有用户使用。管理员用户可以在此环境中安装包 跟。`sudo -E`  
   
 
@@ -362,6 +362,6 @@ nb-snowpiercer
 
 添加 Google Drive 账号
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTUyNjQyNSwtMTI2Mjc0NjYzNiwtMj
+eyJoaXN0b3J5IjpbLTk4ODM3Njg4NywtMTI2Mjc0NjYzNiwtMj
 UzMjM5NjAxXX0=
 -->
