@@ -74,7 +74,7 @@ Most administration & configuration of the JupyterHub can be done from the web U
   恭喜，您现在有一个多用户 JupyterHub，您可以添加任意 用户到！  
   ![输入图片说明](Python/imgs/2023-10-03/fig1.png)
 ## 第 3 步：为所有用户安装 conda / pip 包  
-  
+  ![输入图片说明](Python/imgs/2023-10-03/CohfPbi8k97EnDfd.png)
 
 **用户环境**是所有用户共享的 conda 环境 在JupyterHub中。在此环境中安装的库会立即生效 可供所有用户使用。管理员用户可以在此环境中安装包 跟。`sudo -E`  
   
@@ -362,5 +362,6 @@ nb-snowpiercer
 
 添加 Google Drive 账号
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjI3NDY2MzYsLTI1MzIzOTYwMV19
+eyJoaXN0b3J5IjpbLTkwOTUyNjQyNSwtMTI2Mjc0NjYzNiwtMj
+UzMjM5NjAxXX0=
 -->
