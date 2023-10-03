@@ -1,18 +1,32 @@
 # 01-The Littlest JupyterHub安装
   
-** The Littlest JupyterHub** 支持云端安装和本地安装，本教程介绍在**Ubuntu 20.04**本地服务器安装**TLJH**。  **不要**直接在笔记本电脑或个人计算机上安装 **TLJH**，当直接运行时，**TLJH**可能会打开可利用您个人计算机上的安全漏洞。不支持在 docker 容器中运行 TLJH，因为我们依赖于 在系统上。如果要在本地运行 TLJH 进行开发，请参阅[设置开发环境](https://tljh.jupyter.org/en/latest/contributing/dev-setup.html)。  
+** The Littlest JupyterHub** 支持云端安装和本地安装，本教程介绍在**Ubuntu 20.04**本地服务器安装**TLJH**。  
   
+**不要**直接在您的笔记本电脑或个人计算机上安装 **TLJH**，！ 当直接运行时，**TLJH**可能会打开可利用您个人计算机上的安全漏洞。它很可能会打开可利用的安全漏洞 在您的个人计算机上。  
+  
+
+不支持在 docker 容器中_中_运行 TLJH，因为我们依赖于 在系统上。如果要在本地运行 TLJH 进行开发，请参阅[设置开发环境](https://tljh.jupyter.org/en/latest/contributing/dev-setup.html)。  
+  
+
 ## 目标  
   
+
 在本教程结束时，您应该有一个带有一些管理员的JupyterHub。 用户和要在其上运行安装包的用户环境 您有权访问的服务器。  
   
+
 ## 先决条件  
   
-1.  熟悉**Ubuntu**的命令行。       
-2.  一台运行**Ubuntu 20.04+**的服务器，您具有**root**访问权限（推荐使用 **Ubuntu 22.04 LTS**）。        
-3. 您的服务器上至少有 **1GB** 的 RAM。        
-4.  能够进入服务器并从提示符运行命令。`ssh`        
-5. 可以从目标受众的浏览器访问服务器的 **IP 地址**。        
+
+1.  熟悉**Ubuntu**的命令行。  
+      
+2.  一台运行**Ubuntu 20.04+**的服务器，您具有**root**访问权限（推荐使用 **Ubuntu 22.04 LTS**）。  
+      
+3. 您的服务器上至少有 **1GB** 的 RAM。  
+      
+4.  能够进入服务器并从提示符运行命令。`ssh`  
+      
+5. 可以从目标受众的浏览器访问服务器的 **IP 地址**。  
+      
 
 如果遇到问题，请查看自定义服务器安装的特定[故障排除指南](https://tljh.jupyter.org/en/latest/troubleshooting/providers/custom.html)。  
   
@@ -27,7 +41,7 @@
 3.  复制下面的文本，并将其粘贴到终端中。为此替换为第一个**管理员用户**的名称 JupyterHub.选择您喜欢的任何名称（不要忘记删除括号！ 此管理员用户可以在设置 JupyterHub 后登录，并且 可以根据自己的需要进行配置。**记得添加您的用户名**！`<admin-user-name>`  
 ```      
 curl -L https://tljh.jupyter.org/bootstrap.py | sudo -E python3 - --admin <admin-user-name>  
-```    
+```   
  注意     
  请参阅安装程序做什么？，如果您想确切地了解[安装程序正在做什么。](https://tljh.jupyter.org/en/latest/topic/installer-actions.html)[自定义安装程序记录](https://tljh.jupyter.org/en/latest/topic/customizing-installer.html)了可传递给安装程序的其他选项。    
 4.  按下开始安装过程。这将需要5-10分钟， 并会说安装过程何时完成。`Enter Done!`       
@@ -364,5 +378,5 @@ nb-snowpiercer
 
 添加 Google Drive 账号
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQ3MzE1MjNdfQ==
+eyJoaXN0b3J5IjpbMTA4MjU4ODUwOV19
 -->
