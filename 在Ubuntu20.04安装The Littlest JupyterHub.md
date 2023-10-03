@@ -102,10 +102,6 @@ Most administration & configuration of the JupyterHub can be done from the web U
 
 # Jupyter NoteBook / JupyterLab / JupyterHub 区别与关系简介
 
-标签：
-
-[Python](https://www.imooc.com/article/tag/18)[人工智能](https://www.imooc.com/article/tag/66)
-
 收藏
 
 -   JupyterHub 是为多个用户提供 Jupyter Notebook 的集成服务系统，JupyterHub 下用户环境彼此隔离，无法相互共享，每个用户需要单独配置自己的 Python/Conda 环境等。
@@ -136,5 +132,6 @@ Most administration & configuration of the JupyterHub can be done from the web U
             
         -   开发环境：JupyterHub + JupyterLab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4ODY4Nzg4MSw1MzQ4MTUyMDJdfQ==
+eyJoaXN0b3J5IjpbNTY1NjI3MTYzLDExODg2ODc4ODEsNTM0OD
+E1MjAyXX0=
 -->
