@@ -15,7 +15,7 @@
 
 1.  熟悉**Ubuntu**的命令行。
     
-2.  一台运行**Ubuntu 20.04+**的服务器，您具有**root**访问权限（推荐使用 Ubuntu 22.04 LTS）。
+2.  一台运行**Ubuntu 20.04+**的服务器，您具有**root**访问权限（推荐使用 **Ubuntu 22.04 LTS**）。
     
 3.  您的服务器上至少有 **1GB** 的 RAM。
     
@@ -23,10 +23,9 @@
     
 5.  可以从目标受众的浏览器访问服务器的 **IP 地址**。
     
-
 如果遇到问题，请查看自定义服务器安装的特定[故障排除指南](https://tljh.jupyter.org/en/latest/troubleshooting/providers/custom.html)。
 
-## 第 1 步：安装最小的 JupyterHub
+## 第 1 步：安装The Littlest JupyterHub
 
 1.  使用**Ubuntu20.04**的**Terminal**程序，通过**SSH**连接到您的服务器。这应该会给你一个提示，你可以 键入命令。
     
@@ -137,5 +136,5 @@ Most administration & configuration of the JupyterHub can be done from the web U
             
         -   开发环境：JupyterHub + JupyterLab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxODIwNTE2LDUzNDgxNTIwMl19
+eyJoaXN0b3J5IjpbMTE4ODY4Nzg4MSw1MzQ4MTUyMDJdfQ==
 -->
