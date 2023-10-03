@@ -53,7 +53,6 @@ http://<public-ip>
 7.  恭喜，您有一个正在运行的 JupyterHub！  
 ![](blob:https://stackedit.cn/3b536c0b-0b91-4d0f-bfa6-c903093ee1b7)![输入图片说明](/imgs/2023-10-03/MWnYMdhZiuIEpDs0.png)  
       
-
 | 用户名 |密码  |  
 |--|--|  
 | jupyter | 608596tljh  |  
@@ -61,34 +60,19 @@ http://<public-ip>
 |jupyterhub | 4963825Ak  |  
 |大数据201顾楠瑜 | 25dbc128|  
   
-
 ## 第 2 步：添加更多用户  
   
-
-Most administration & configuration of the JupyterHub can be done from the web UI directly. Let’s add a few users who can log in!  
+Most administration & configuration of the JupyterHub can be done from the web UI directly. Let’s add a few users who can log in!    
+1.  In the File menu select the entry for the **Hub Control Panel**.       
+2. In the control panel, open the **Admin** link in the top left.       
+    This opens up the JupyterHub admin page, where you can add / delete users, start / stop peoples’ servers and see who is online.        
+3. Click the **Add Users** button.        
+    A **Add Users** dialog box opens up.        
+4.  Type the names of users you want to add to this JupyterHub in the dialog box, one per line.        
+    You can tick the **Admin** checkbox if you want to give admin rights to all these users too.        
+5.  单击对话框中的**添加用户**按钮。您的用户现已添加 到JupyterHub！当他们第一次登录时，他们可以设置 密码 - 并在将来使用它再次登录。        
+  恭喜，您现在有一个多用户 JupyterHub，您可以添加任意 用户到！  
   
-
-1.  In the File menu select the entry for the **Hub Control Panel**.  
-      
-2. In the control panel, open the **Admin** link in the top left.  
-      
-    This opens up the JupyterHub admin page, where you can add / delete users, start / stop peoples’ servers and see who is online.  
-      
-3. Click the **Add Users** button.  
-      
-    A **Add Users** dialog box opens up.  
-      
-4.  Type the names of users you want to add to this JupyterHub in the dialog box, one per line.  
-      
-    You can tick the **Admin** checkbox if you want to give admin rights to all these users too.  
-      
-5.  单击对话框中的**添加用户**按钮。您的用户现已添加 到JupyterHub！当他们第一次登录时，他们可以设置 密码 - 并在将来使用它再次登录。  
-      
-  
-
-恭喜，您现在有一个多用户 JupyterHub，您可以添加任意 用户到！  
-  
-
 ## 第 3 步：为所有用户安装 conda / pip 包  
   
 
@@ -378,6 +362,6 @@ nb-snowpiercer
 
 添加 Google Drive 账号
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjU4ODUwOSwtMTg4ODM0MTk0OSwyOD
-I4MDQ3ODldfQ==
+eyJoaXN0b3J5IjpbLTI1MzIzOTYwMSwxMDgyNTg4NTA5LC0xOD
+g4MzQxOTQ5LDI4MjgwNDc4OV19
 -->
