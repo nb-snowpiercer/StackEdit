@@ -52,7 +52,7 @@ http://<public-ip>
 6.  使用您在步骤 3 中使用的**管理员用户名**登录。您可以选择任何 您想要的密码。使用 强密码并在某处记下它，因为这将是密码 从现在开始的管理员用户帐户。       
 7.  恭喜，您有一个正在运行的 JupyterHub！  
 ![](blob:https://stackedit.cn/3b536c0b-0b91-4d0f-bfa6-c903093ee1b7)
-  
+![输入图片说明](./imgs/fig1/cI2SRmkk9rMAw1X9.png)  
       
 | 用户名 |密码  |  
 |--|--|  
@@ -362,7 +362,7 @@ nb-snowpiercer
 
 添加 Google Drive 账号
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4ODM3Njg4NywtMTI2Mjc0NjYzNiwtMj
-UzMjM5NjAxLDEwODI1ODg1MDksLTE4ODgzNDE5NDksMjgyODA0
-Nzg5XX0=
+eyJoaXN0b3J5IjpbLTEzMDkwNTg0ODEsLTEyNjI3NDY2MzYsLT
+I1MzIzOTYwMSwxMDgyNTg4NTA5LC0xODg4MzQxOTQ5LDI4Mjgw
+NDc4OV19
 -->
