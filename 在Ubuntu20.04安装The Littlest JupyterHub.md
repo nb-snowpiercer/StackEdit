@@ -50,6 +50,9 @@ curl -L https://tljh.jupyter.org/bootstrap.py | sudo -E python3 - --admin <admin
 7.  恭喜，您有一个正在运行的 JupyterHub！
 ![输入图片说明](/imgs/2023-10-03/fig1.png)
     
+| 用户名 |密码  |
+|--|--|
+|  |  |
 
 ## 第 2 步：添加更多用户
 
@@ -133,6 +136,6 @@ Most administration & configuration of the JupyterHub can be done from the web U
             
         -   开发环境：JupyterHub + JupyterLab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyNDU0MjUwLDU2NTYyNzE2MywxMTg4Nj
-g3ODgxLDUzNDgxNTIwMl19
+eyJoaXN0b3J5IjpbLTU1Mjc5MDY3NSw0NjI0NTQyNTAsNTY1Nj
+I3MTYzLDExODg2ODc4ODEsNTM0ODE1MjAyXX0=
 -->
