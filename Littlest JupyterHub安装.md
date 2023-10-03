@@ -1,7 +1,7 @@
 
-# The Littlest JupyterHub安装在本地服务器
+# 在Ubuntu20.04安装The Littlest JupyterHub
 
-如果您的云提供商没有直接教程，或者 您正在裸机服务器上进行此设置。
+** The Littlest JupyterHub** 支持如果您的云提供商没有直接教程，或者 您正在裸机服务器上进行此设置。
 
 警告
 
@@ -141,5 +141,5 @@ Most administration & configuration of the JupyterHub can be done from the web U
             
         -   开发环境：JupyterHub + JupyterLab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjM0NTI0OTBdfQ==
+eyJoaXN0b3J5IjpbMTc5ODQ5NDEwNywtMTcyMzQ1MjQ5MF19
 -->
