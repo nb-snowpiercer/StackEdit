@@ -1,8 +1,6 @@
 # 01-The Littlest JupyterHub安装
   
-** The Littlest JupyterHub** 支持云端安装和本地安装，本教程介绍在**Ubuntu 20.04**本地安装**TLJH**。  
-  
-**不要**直接在您的笔记本电脑或个人计算机上安装 TLJH！ 当直接运行时，它很可能会打开可利用的安全漏洞 在您的个人计算机上。  
+** The Littlest JupyterHub** 支持云端安装和本地安装，本教程介绍在**Ubuntu 20.04**本地服务器安装**TLJH**。  **不要**直接在笔记本电脑或个人计算机上安装 **TLJH**，当直接运行时，**TLJH**可能会打开可利用您个人计算机上的安全漏洞。
   
 
 不支持在 docker 容器_中_运行 TLJH，因为我们依赖于 在系统上。如果要在本地运行 TLJH 进行开发，请参阅[设置开发环境](https://tljh.jupyter.org/en/latest/contributing/dev-setup.html)。  
@@ -392,5 +390,5 @@ nb-snowpiercer
 
 添加 Google Drive 账号
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDkzOTQ5NywyODI4MDQ3ODldfQ==
+eyJoaXN0b3J5IjpbMTcwNTIzMDMwOSwyODI4MDQ3ODldfQ==
 -->
