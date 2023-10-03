@@ -57,7 +57,7 @@ http://<public-ip>
 |--|--|
 | jupyter | 608596tljh  |
 |tljh| 608596tljh|
-|jupyterhub |   |
+|jupyterhub | 4963825Ak  |
 |大数据201顾楠瑜 | 25dbc128|
 
 ## 第 2 步：添加更多用户
@@ -142,7 +142,7 @@ Most administration & configuration of the JupyterHub can be done from the web U
             
         -   开发环境：JupyterHub + JupyterLab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5OTQ3MTAxLC0zMzQ0MTM0ODEsMTQ2NT
-AyMTE4Niw0NjI0NTQyNTAsNTY1NjI3MTYzLDExODg2ODc4ODEs
-NTM0ODE1MjAyXX0=
+eyJoaXN0b3J5IjpbLTE0NzE5MTc0MjgsOTQ5OTQ3MTAxLC0zMz
+Q0MTM0ODEsMTQ2NTAyMTE4Niw0NjI0NTQyNTAsNTY1NjI3MTYz
+LDExODg2ODc4ODEsNTM0ODE1MjAyXX0=
 -->
