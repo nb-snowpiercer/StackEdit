@@ -33,37 +33,23 @@
 
 ## 第 1 步：安装The Littlest JupyterHub  
   
-
-1.  使用**Ubuntu20.04**的**Terminal**程序，通过**SSH**连接到您的服务器。这应该会给你一个提示，你可以 键入命令。  
-      
+1.  使用**Ubuntu20.04**的**Terminal**程序，通过**SSH**连接到您的服务器。这应该会给你一个提示，你可以 键入命令。        
 2.  确保已安装`python3` ，`python3-dev`，`curl`和`git`。  
-
 ```      
     sudo apt install python3 python3-dev git curl  
 ```      
-
 3.  复制下面的文本，并将其粘贴到终端中。为此替换为第一个**管理员用户**的名称 JupyterHub.选择您喜欢的任何名称（不要忘记删除括号！ 此管理员用户可以在设置 JupyterHub 后登录，并且 可以根据自己的需要进行配置。**记得添加您的用户名**！`<admin-user-name>`  
-
 ```      
 curl -L https://tljh.jupyter.org/bootstrap.py | sudo -E python3 - --admin <admin-user-name>  
 ```   
-  
-
  注意     
- 请参阅安装程序做什么？，如果您想确切地了解[安装程序正在做什么。](https://tljh.jupyter.org/en/latest/topic/installer-actions.html)[自定义安装程序记录](https://tljh.jupyter.org/en/latest/topic/customizing-installer.html)了可传递给安装程序的其他选项。  
-      
-
-4.  按下开始安装过程。这将需要5-10分钟， 并会说安装过程何时完成。`Enter Done!`  
-      
+ 请参阅安装程序做什么？，如果您想确切地了解[安装程序正在做什么。](https://tljh.jupyter.org/en/latest/topic/installer-actions.html)[自定义安装程序记录](https://tljh.jupyter.org/en/latest/topic/customizing-installer.html)了可传递给安装程序的其他选项。    
+4.  按下开始安装过程。这将需要5-10分钟， 并会说安装过程何时完成。`Enter Done!`       
 5. 复制服务器的公共 **IP**，然后尝试从 您的浏览器。如果一切顺利，这应该会给你一个JupyterHub登录页面。  
-
 ```  
 http://<public-ip>  
-```  
-      
-
-6.  使用您在步骤 3 中使用的**管理员用户名**登录。您可以选择任何 您想要的密码。使用 强密码并在某处记下它，因为这将是密码 从现在开始的管理员用户帐户。  
-      
+```     
+6.  使用您在步骤 3 中使用的**管理员用户名**登录。您可以选择任何 您想要的密码。使用 强密码并在某处记下它，因为这将是密码 从现在开始的管理员用户帐户。       
 7.  恭喜，您有一个正在运行的 JupyterHub！  
 ![](blob:https://stackedit.cn/3b536c0b-0b91-4d0f-bfa6-c903093ee1b7)![输入图片说明](/imgs/2023-10-03/MWnYMdhZiuIEpDs0.png)  
       
@@ -392,6 +378,6 @@ nb-snowpiercer
 
 添加 Google Drive 账号
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODgzNDE5NDksMTcwMTk3NTY2MSwyOD
+eyJoaXN0b3J5IjpbMTA4MjU4ODUwOSwtMTg4ODM0MTk0OSwyOD
 I4MDQ3ODldfQ==
 -->
