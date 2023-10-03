@@ -1,11 +1,7 @@
-在Ubuntu20.04安装The Littlest JupyterHub
-
+# 01-The Littlest JupyterHub安装
   
-# 在Ubuntu20.04安装The Littlest JupyterHub  
-  
-
 ** The Littlest JupyterHub** 支持云端安装和本地安装，本教程介绍在**Ubuntu 20.04**本地安装**TLJH**。  
-  
+  、
 
 **不要**直接在您的笔记本电脑或个人计算机上安装 TLJH！ 当直接运行时，它很可能会打开可利用的安全漏洞 在您的个人计算机上。  
   
@@ -397,5 +393,5 @@ nb-snowpiercer
 
 添加 Google Drive 账号
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyODA0Nzg5XX0=
+eyJoaXN0b3J5IjpbLTY0NjI4NTE0NF19
 -->
