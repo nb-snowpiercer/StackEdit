@@ -41,7 +41,7 @@ curl -L https://tljh.jupyter.org/bootstrap.py | sudo -E python3 - --admin <admin
  注意   
  请参阅安装程序做什么？，如果您想确切地了解[安装程序正在做什么。](https://tljh.jupyter.org/en/latest/topic/installer-actions.html)[自定义安装程序记录](https://tljh.jupyter.org/en/latest/topic/customizing-installer.html)了可传递给安装程序的其他选项。
     
-4.  按下开始安装过程。这将需要5-10分钟， 并会说安装过程何时完成。`Enter``Done!`
+4.  按下开始安装过程。这将需要5-10分钟， 并会说安装过程何时完成。`Enter Done!`
     
 5.  复制服务器的公共 **IP**，然后尝试从 您的浏览器。如果一切顺利，这应该会给你一个JupyterHub登录页面。
 ```
@@ -142,7 +142,8 @@ Most administration & configuration of the JupyterHub can be done from the web U
             
         -   开发环境：JupyterHub + JupyterLab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzIzMjA0MjgsLTE0NzE5MTc0MjgsOT
-Q5OTQ3MTAxLC0zMzQ0MTM0ODEsMTQ2NTAyMTE4Niw0NjI0NTQy
-NTAsNTY1NjI3MTYzLDExODg2ODc4ODEsNTM0ODE1MjAyXX0=
+eyJoaXN0b3J5IjpbLTEwNzg2NzkwMjIsLTEyNzIzMjA0MjgsLT
+E0NzE5MTc0MjgsOTQ5OTQ3MTAxLC0zMzQ0MTM0ODEsMTQ2NTAy
+MTE4Niw0NjI0NTQyNTAsNTY1NjI3MTYzLDExODg2ODc4ODEsNT
+M0ODE1MjAyXX0=
 -->
