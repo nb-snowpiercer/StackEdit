@@ -51,13 +51,13 @@ public class HelloWorld   //一行注释，类名
 /**  
 文档注释  
 */
-```java
+```
 
 ## 练习题
 
 1.  编写程序，打印输出你的姓名和年龄。
     
-
+```
    /*  
    输入姓名和年龄，并打印出姓名和年龄  
    */  
@@ -73,7 +73,7 @@ public class HelloWorld   //一行注释，类名
            System.out.print(age);  
        }  
    }
-
+```
 2.  编写程序，使用以下公式计算并显示半径为5.5的圆面积和周长。
     
 
@@ -82,7 +82,7 @@ area = \pi \times radius ^2 \\ perimeter = 2 \times \pi \times radius
 $$
 
   
-
+```
 /*  
 计算圆的面积和圆周长度。  
 */  
@@ -100,6 +100,7 @@ public class Test2
         System.out.print(perimeter);  
     }  
 }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQ0NjM2MTUsMTUzMzMzNTEyMV19
+eyJoaXN0b3J5IjpbMzU1OTIxMzEsMTUzMzMzNTEyMV19
 -->
