@@ -32,16 +32,16 @@
 
 ## 第 1 步：安装最小的 JupyterHub
 
-1.  使用终端程序，通过 SSH 连接到您的服务器。这应该会给你一个提示，你可以 键入命令。
+1.  使用**Ubuntu20.04**的**Terminal**程序，通过**SSH**连接到您的服务器。这应该会给你一个提示，你可以 键入命令。
     
 2.  确保已安装`python3` ，`python3-dev`，`curl`和`git`。
 ```    
     sudo apt install python3 python3-dev git curl
 ```    
-4.  复制下面的文本，并将其粘贴到终端中。为此替换为第一个**管理员用户**的名称 JupyterHub.选择您喜欢的任何名称（不要忘记删除括号！ 此管理员用户可以在设置 JupyterHub 后登录，并且 可以根据自己的需要进行配置。**记得添加您的用户名**！`<admin-user-name>`
-    
-    curl -L https://tljh.jupyter.org/bootstrap.py | sudo -E python3 - --admin <admin-user-name>
-    
+3.  复制下面的文本，并将其粘贴到终端中。为此替换为第一个**管理员用户**的名称 JupyterHub.选择您喜欢的任何名称（不要忘记删除括号！ 此管理员用户可以在设置 JupyterHub 后登录，并且 可以根据自己的需要进行配置。**记得添加您的用户名**！`<admin-user-name>`
+```    
+curl -L https://tljh.jupyter.org/bootstrap.py | sudo -E python3 - --admin <admin-user-name>
+``` 
     注意
     
     请参阅安装程序做什么？，如果您想确切地了解[安装程序正在做什么。](https://tljh.jupyter.org/en/latest/topic/installer-actions.html)[自定义安装程序记录](https://tljh.jupyter.org/en/latest/topic/customizing-installer.html)了可传递给安装程序的其他选项。
@@ -141,5 +141,5 @@ Most administration & configuration of the JupyterHub can be done from the web U
             
         -   开发环境：JupyterHub + JupyterLab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5NzQxMzIsNTM0ODE1MjAyXX0=
+eyJoaXN0b3J5IjpbLTIwODQ5MDEzODMsNTM0ODE1MjAyXX0=
 -->
