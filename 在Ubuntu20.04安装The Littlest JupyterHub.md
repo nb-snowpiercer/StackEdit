@@ -55,7 +55,7 @@ curl -L https://tljh.jupyter.org/bootstrap.py | sudo -E python3 - --admin <admin
 | jupyter | 608596tljh  |
 |tljh| 608596tljh|
 |jupyterhub | 
-|大数据201顾楠瑜 | 
+|大数据201顾楠瑜 | 25dbc128|
 
 ## 第 2 步：添加更多用户
 
@@ -139,7 +139,7 @@ Most administration & configuration of the JupyterHub can be done from the web U
             
         -   开发环境：JupyterHub + JupyterLab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODE4ODg3NCwxNDY1MDIxMTg2LDQ2Mj
+eyJoaXN0b3J5IjpbLTMzNDQxMzQ4MSwxNDY1MDIxMTg2LDQ2Mj
 Q1NDI1MCw1NjU2MjcxNjMsMTE4ODY4Nzg4MSw1MzQ4MTUyMDJd
 fQ==
 -->
