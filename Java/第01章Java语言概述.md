@@ -38,6 +38,7 @@
 
 ## Java程序的基本结构
 
+```
 /*  
 多行注释,第一个Java程序  
 */  
@@ -50,6 +51,7 @@ public class HelloWorld   //一行注释，类名
 /**  
 文档注释  
 */
+```java
 
 ## 练习题
 
@@ -99,5 +101,5 @@ public class Test2
     }  
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzMzNTEyMV19
+eyJoaXN0b3J5IjpbLTExMDQ0NjM2MTUsMTUzMzMzNTEyMV19
 -->
