@@ -1,13 +1,9 @@
 
 # 在Ubuntu20.04安装The Littlest JupyterHub
 
-** The Littlest JupyterHub** 支持云端安装和本地安装，本教程介绍在**Ubuntu 20.04**本地安装**TLJH**，预备工作：首先需要一台安装**Ubuntu20.04**的服务器。
-
-警告
+** The Littlest JupyterHub** 支持云端安装和本地安装，本教程介绍在**Ubuntu 20.04**本地安装**TLJH**。
 
 **不要**直接在您的笔记本电脑或个人计算机上安装 TLJH！ 当直接运行时，它很可能会打开可利用的安全漏洞 在您的个人计算机上。
-
-注意
 
 不支持在 docker 容器_中_运行 TLJH，因为我们依赖于 在系统上。如果要在本地运行 TLJH 进行开发，请参阅[设置开发环境](https://tljh.jupyter.org/en/latest/contributing/dev-setup.html)。
 
@@ -17,9 +13,9 @@
 
 ## 先决条件
 
-1.  对命令行有些熟悉。
+1.  熟悉**Ubuntu**的命令行。
     
-2.  运行 Ubuntu 20.04+ 的服务器，您具有 root 访问权限（推荐使用 Ubuntu 22.04 LTS）。
+2.  一台运行** Ubuntu 20.04+ 的服务器，您具有 root 访问权限（推荐使用 Ubuntu 22.04 LTS）。
     
 3.  您的服务器上至少有 **1GB** 的 RAM。
     
@@ -141,5 +137,5 @@ Most administration & configuration of the JupyterHub can be done from the web U
             
         -   开发环境：JupyterHub + JupyterLab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQ5MDEzODMsNTM0ODE1MjAyXX0=
+eyJoaXN0b3J5IjpbMzM1NjUwOTUyLDUzNDgxNTIwMl19
 -->
