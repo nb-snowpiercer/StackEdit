@@ -110,9 +110,8 @@ Most administration & configuration of the JupyterHub can be done from the web U
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 
-# Jupyter NoteBook / JupyterLab / JupyterHub 区别与关系简介
+# Jupyter NoteBook / JupyterLab / JupyterHub 区别
 
-收藏
 
 -   JupyterHub 是为多个用户提供 Jupyter Notebook 的集成服务系统，JupyterHub 下用户环境彼此隔离，无法相互共享，每个用户需要单独配置自己的 Python/Conda 环境等。
     
@@ -142,8 +141,8 @@ Most administration & configuration of the JupyterHub can be done from the web U
             
         -   开发环境：JupyterHub + JupyterLab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzg2NzkwMjIsLTEyNzIzMjA0MjgsLT
-E0NzE5MTc0MjgsOTQ5OTQ3MTAxLC0zMzQ0MTM0ODEsMTQ2NTAy
-MTE4Niw0NjI0NTQyNTAsNTY1NjI3MTYzLDExODg2ODc4ODEsNT
-M0ODE1MjAyXX0=
+eyJoaXN0b3J5IjpbMTg3NTk1ODczOCwtMTA3ODY3OTAyMiwtMT
+I3MjMyMDQyOCwtMTQ3MTkxNzQyOCw5NDk5NDcxMDEsLTMzNDQx
+MzQ4MSwxNDY1MDIxMTg2LDQ2MjQ1NDI1MCw1NjU2MjcxNjMsMT
+E4ODY4Nzg4MSw1MzQ4MTUyMDJdfQ==
 -->
