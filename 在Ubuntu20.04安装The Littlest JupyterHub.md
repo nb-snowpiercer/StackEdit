@@ -15,7 +15,7 @@
 
 1.  熟悉**Ubuntu**的命令行。
     
-2.  一台运行** Ubuntu 20.04+ 的服务器，您具有 root 访问权限（推荐使用 Ubuntu 22.04 LTS）。
+2.  一台运行**Ubuntu 20.04+**的服务器，您具有**root**访问权限（推荐使用 Ubuntu 22.04 LTS）。
     
 3.  您的服务器上至少有 **1GB** 的 RAM。
     
@@ -137,5 +137,5 @@ Most administration & configuration of the JupyterHub can be done from the web U
             
         -   开发环境：JupyterHub + JupyterLab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1NjUwOTUyLDUzNDgxNTIwMl19
+eyJoaXN0b3J5IjpbNzgxODIwNTE2LDUzNDgxNTIwMl19
 -->
