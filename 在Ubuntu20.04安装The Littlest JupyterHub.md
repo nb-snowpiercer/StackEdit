@@ -48,11 +48,12 @@ curl -L https://tljh.jupyter.org/bootstrap.py | sudo -E python3 - --admin <admin
 6.  使用您在步骤 3 中使用的**管理员用户名**登录。您可以选择任何 您想要的密码。使用 强密码并在某处记下它，因为这将是密码 从现在开始的管理员用户帐户。
     
 7.  恭喜，您有一个正在运行的 JupyterHub！
-![输入图片说明](/imgs/2023-10-03/fig1.png)
+![输入图片说明](imgs/2023-10-03/fig1.png)
     
 | 用户名 |密码  |
 |--|--|
-|  |  |
+| jupyter | 608596tljh  |
+|--|--|
 
 ## 第 2 步：添加更多用户
 
@@ -136,6 +137,6 @@ Most administration & configuration of the JupyterHub can be done from the web U
             
         -   开发环境：JupyterHub + JupyterLab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1Mjc5MDY3NSw0NjI0NTQyNTAsNTY1Nj
+eyJoaXN0b3J5IjpbMTU0NDUzOTM0OSw0NjI0NTQyNTAsNTY1Nj
 I3MTYzLDExODg2ODc4ODEsNTM0ODE1MjAyXX0=
 -->
